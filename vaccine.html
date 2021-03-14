@@ -1,0 +1,298 @@
+<html>
+<head>
+  <title>Vaccine</title> 
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['line']});
+    google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'People vaccinated');
+    
+
+    data.addRows([
+             
+[new Date(2021, 01, 16),55220364],
+[new Date(2021, 01, 17),55739545],
+[new Date(2021, 01, 18),57737767],
+[new Date(2021, 01, 19),59585043],
+[new Date(2021, 01, 20),61289500],
+[new Date(2021, 01, 21),63090634],
+[new Date(2021, 01, 22),64177474],
+[new Date(2021, 01, 23),65032083],
+[new Date(2021, 01, 24),66464947],
+[new Date(2021, 01, 25),68274117],
+[new Date(2021, 01, 26),70454064],
+[new Date(2021, 01, 27),72806180],
+[new Date(2021, 01, 28),75236003],
+[new Date(2021, 02, 01),76899987],
+[new Date(2021, 02, 02),78631601],
+[new Date(2021, 02, 03),81556999],
+[new Date(2021, 02, 04),82572848],
+[new Date(2021, 02, 05),85008094],
+[new Date(2021, 02, 06),87912323],
+[new Date(2021, 02, 07),90351750],
+[new Date(2021, 02, 08),92089852],
+[new Date(2021, 02, 09),93692598],
+[new Date(2021, 02, 10),95721290],
+[new Date(2021, 02, 11),98203893]
+
+
+    ]);
+
+    var options = {
+      chart: {
+        title: 'Total number of people vaccinated',
+        subtitle: 'in days'
+      },
+      width: 900,
+      height: 500,
+      axes: {
+        x: {
+          0: {side: 'top'}
+        }
+      }
+    };
+
+    var chart = new google.charts.Line(document.getElementById('line_top_y'));
+
+    chart.draw(data, google.charts.Line.convertOptions(options));
+  }
+</script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('date', 'Date');
+      data.addColumn('number', 'People vaccinated');
+      
+
+      data.addRows([
+             
+      [new Date(2021, 01, 15),0],  
+[new Date(2021, 01, 16),0],
+[new Date(2021, 01, 17),0],
+[new Date(2021, 01, 18),0],
+[new Date(2021, 01, 19),0],
+[new Date(2021, 01, 20),0],
+[new Date(2021, 01, 21),0],
+[new Date(2021, 01, 22),20],
+[new Date(2021, 01, 23),2879],
+[new Date(2021, 01, 24),6908],
+[new Date(2021, 01, 25),17500],
+[new Date(2021, 01, 26),25000],
+[new Date(2021, 01, 27),30000],
+[new Date(2021, 01, 28),31894],
+[new Date(2021, 02, 01),33702],
+[new Date(2021, 02, 02),41907],
+[new Date(2021, 02, 03),50840],
+[new Date(2021, 02, 04),61008],
+[new Date(2021, 02, 05),71867],
+[new Date(2021, 02, 06),76940],
+[new Date(2021, 02, 07),81345],
+[new Date(2021, 02, 08),86389],
+[new Date(2021, 02, 09),94908],
+[new Date(2021, 02, 10),106200],
+[new Date(2021, 02, 11),125000],
+[new Date(2021, 02, 12),135103]
+
+      ]);
+
+      var options = {
+        chart: {
+          title: 'Total number of people vaccinated',
+          subtitle: 'in days'
+        },
+        width: 900,
+        height: 500,
+        axes: {
+          x: {
+            0: {side: 'top'}
+          }
+        }
+      };
+
+      var chart = new google.charts.Line(document.getElementById('line_top_x'));
+
+      chart.draw(data, google.charts.Line.convertOptions(options));
+    }
+  </script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['line']});
+    google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+
+    var data = new google.visualization.DataTable();
+    data.addColumn('date', 'Date');
+    data.addColumn('number', 'People vaccinated');
+    
+
+    data.addRows([
+             
+[new Date(2021, 01, 16),8857341],
+[new Date(2021, 01, 17),9186757],
+[new Date(2021, 01, 18),9846523],
+[new Date(2021, 01, 19),10449942],
+[new Date(2021, 01, 20),10838323],
+[new Date(2021, 01, 21),11085173],
+[new Date(2021, 01, 22),11424094],
+[new Date(2021, 01, 23),11907392],
+[new Date(2021, 01, 24),12366633],
+[new Date(2021, 01, 25),13067047],
+[new Date(2021, 01, 26),13756940],
+[new Date(2021, 01, 27),14242547],
+[new Date(2021, 01, 28),14301266],
+[new Date(2021, 02, 01),14854136],
+[new Date(2021, 02, 02),15620749],
+[new Date(2021, 02, 03),16616048],
+[new Date(2021, 02, 04),18005503],
+[new Date(2021, 02, 05),19497704],
+[new Date(2021, 02, 06),20922344],
+[new Date(2021, 02, 07),20989010],
+[new Date(2021, 02, 08),23008733],
+[new Date(2021, 02, 09),24367906],
+[new Date(2021, 02, 10),25685011],
+[new Date(2021, 02, 11),26164920]
+
+
+
+    ]);
+
+    var options = {
+      chart: {
+        title: 'Total number of people vaccinated',
+        subtitle: 'in days'
+      },
+      width: 900,
+      height: 500,
+      axes: {
+        x: {
+          0: {side: 'top'}
+        }
+      }
+    };
+
+    var chart = new google.charts.Line(document.getElementById('line_top_z'));
+
+    chart.draw(data, google.charts.Line.convertOptions(options));
+  }
+</script>
+
+<script>
+google.charts.load('current', {
+        'packages':['geochart'],
+        // Note: you will need to get a mapsApiKey for your project.
+        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+        'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'People Vaccinated'],
+          ['Germany', 8863270],
+          ['United Kingdom', 24759603],
+          ['Canada', 2830164],
+          ['Russia', 7448262],
+          ['China', 52520000],
+          ['United States', 98203893],
+          ['Brazil', 11149530],
+          ['Australia', 135103],
+          ['France', 6722229],
+          ['India', 28218457]
+        ]);
+
+        var options = {};
+
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+        chart.draw(data, options);
+      }
+</script>
+</head>
+  
+
+<body>
+  
+  <h1>Find Vaccine</h1>
+ 
+  <!-- Corona animation container -->
+  <div class="animatediv"> 
+  <img src="https://atheistiran.com/wp-content/uploads/2020/03/corona-virus.png">
+    </div>
+  
+  <!-- Image on top of the Main menu container -->
+  <img src="https://atheistiran.com/wp-content/uploads/2020/03/people-mask.png" class="TopImage">
+  
+  <!-- Main Menu Start -->
+  <ul class="menu shadow">
+    
+    <li>
+      <a href="#Australia">Australia</a>
+    </li>
+    
+    <li>
+      <a href="#India">India</a>
+    </li>
+        
+    <li>
+      <a href="#USA">USA</a>
+    </li>
+    
+    <li>
+      <a href="#World">Vaccination given around the world</a>
+   </li>
+    
+    
+  </ul>
+  <!-- Main Menu End -->
+  
+  <!-- Free Space container  -->  
+  <div style="margin-top:40%"></div>
+  
+  <!-- Message Boxes  -->  
+   <h2>Australia</h2>
+  <div class="messagebox shadow" id="Australia">
+    <div id="line_top_x"></div>
+  </div>
+  </div>
+  
+<h2>India</h2>
+  <div class="messagebox shadow" id="India">
+    
+    <div id="line_top_z"></div>
+    </div>
+      
+ 
+
+<h2>USA</h2>
+      <div class="messagebox shadow" id="USA">
+        <div id="line_top_y"></div>
+        
+  </div>
+   
+
+
+<h2>Vaccination given around the world</h2>
+ <div class="messagebox shadow" id="World">
+  <div id="regions_div" ></div>   
+       
+  </div>
+
+
+     
+
+
+  
+</body>
+</html>
